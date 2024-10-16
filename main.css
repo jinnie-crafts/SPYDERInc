@@ -1,12 +1,11 @@
 /*CSS variables section*/
-.body{
+body{
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     font: 1.2em "Fira Sans", sans-serif;
 }
 :root {
     background-color: rgba(0, 0, 21, 1);
-    font-family: 'Courier New', Courier, monospace;
     
 }
 
@@ -538,4 +537,10 @@ body{
   /* Darker background on mouse-over */
   .btn:hover {
     background-color: rgb(30, 94, 167);
+  }
+
+
+  .event-image-payment{
+    width: fit-content;
+    height: fit-content;
   }
