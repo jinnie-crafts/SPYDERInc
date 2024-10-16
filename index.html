@@ -253,18 +253,19 @@
               <p>On 24th Dec 2024, We are going to host a CHALLANGE in BGMI worth of ₹5000. Room I'd and passcodes are delivered on your E-mail.</p>
               <h4>Book Your Slot </h4>
               <div>
-                <form action="#post " class="registration_form" method="post">
+                <form action="https://api.web3forms.com/submit" method="post">
+                  <input type="hidden" name="access_key" value="e540dbf1-84df-45e5-b93b-713e9c38bc8d">
                 <label id="icon" for="name">Name</label>
                 <br>
-                <input type="text" name="name" id="name" placeholder="Name" required>
+                <input type="text" name="event-registration-___NAME" id="name" placeholder="Name" required>
                 <br>
                 <br>
                 <label id="icon" for="name">Email</label>
                 <br>
-                <input type="email" name="name" id="name" placeholder="Email" required>
-                
+                <input type="email" name="email" id="name" placeholder="Email" required>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
               </div>
-              <button class="w3-btn w3-red w3-margin-top w3-round">Register</button></form>
+              <button class="w3-btn w3-red w3-margin-top w3-round" type="submit">Register</button></form>
           </div>
           <div class="event-image">
             <img src="https://spaces.w3schools.com/images/king-lip-mp295uolfDs-unsplash-removebg-preview.png" alt="erik-mclean"/>
@@ -308,10 +309,14 @@
       </div>
       <div class="contact-list">
         <h5><span><i class="fa fa-envelope w3-xlarge w3-text-light-grey"></i></span>Receive weekly update email</h5>
+        <form action="https://api.web3forms.com/submit" method="post">
+          <input type="hidden" name="access_key" value="e540dbf1-84df-45e5-b93b-713e9c38bc8d">
         <div class="email-contact">
-          <input type="email" placeholder="Email" style="margin: 8px 0px !important;"  required>
+          <input type="email" name="newsletter-subscriber" placeholder="Email" style="margin: 8px 0px !important;"  required>
           
           <button class="w3-btn w3-red w3-round " style="width: 100px; padding:3px 10px !important">Subscribe</button>
+          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+        </form>
         </div>
   
       </div>
