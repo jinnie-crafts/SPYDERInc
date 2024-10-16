@@ -1,4 +1,9 @@
 /*CSS variables section*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font: 1.2em "Fira Sans", sans-serif;
+}
 :root {
     background-color: rgba(0, 0, 21, 1);
     font-family: 'Courier New', Courier, monospace;
