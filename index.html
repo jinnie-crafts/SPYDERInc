@@ -21,6 +21,10 @@
   
 </head>
 <body>
+  
+  <div id="preloader"></div>
+
+
   <header style="position: relative;">
 
     <div class="w3-top" class="header" id="home">
@@ -215,6 +219,10 @@
 
         </div>
       </div>  -->
+<!---->
+
+
+
 
       <!---->
       <h2 class="title" id="games">About Me</h2>
@@ -329,7 +337,7 @@
       </div>
       <div class="contact-list" >
         <h5><span><i class="fa fa-envelope w3-xlarge w3-text-light-grey"></i></span>Email</h5>
-        <p>rishumaurya990@gmail.com </p>
+        <p><a href="mailto:rishumaurya990@gmail.com">rishumaurya990@gmail.com</a></p>
         
        
       </div>
@@ -363,5 +371,18 @@
     }
     </script>
     <script src="script.js"></script>
+
+
+     <script>
+
+      var loader = document.getElementById("preloader");
+      window.addEventListener("load" , function(){
+        loader.style.display="none";
+      })
+
+
+    </script> 
+
+
 </body>
 </html>
