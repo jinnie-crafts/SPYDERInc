@@ -310,4 +310,12 @@ body {
         width: 2.8rem;
         height: 2.8rem; } }
   .modal__buttons {
-    margin-top: 3rem; }
+    margin-top: 3rem;
+   }
+.rishu{
+  padding-top: 50%;
+  font-size: 15px;
+}
+a{
+  color: #a5d2e5;
+}
