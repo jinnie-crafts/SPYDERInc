@@ -549,5 +549,9 @@ body{
     position: fixed;
     z-index: 100;
   }
-
+.project-img{
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+}
  
