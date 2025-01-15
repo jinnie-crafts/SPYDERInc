@@ -555,3 +555,9 @@ body{
     height: 70px;
 }
  
+.cross-road-btn{
+    height: auto;
+    width: auto;
+    padding: 03px;
+    margin-left: 35px;
+}
